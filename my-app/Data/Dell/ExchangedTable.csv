@@ -1,0 +1,7 @@
+tradeID,instrument,quantity,price,buyClOrdID,sellClOrdID,Status,buyOrdID,sellOrdID,Reason
+TRD0,Dell,56,6.0,BB,None,FAILED,ORD1,None,Invalid Quantity,
+TRD1,Dell,12,2.0,A,None,FAILED,ORD2,None,Invalid Quantity,
+TRD2,Dell,12,2.0,A,None,FAILED,ORD3,None,Invalid Quantity,
+TRD3,Dell,12,2.0,A,None,FAILED,ORD4,None,Invalid Quantity,
+TRD4,Dell,12,2.0,A,None,FAILED,ORD5,None,Invalid Quantity,
+TRD5,Dell,12,222.0,None,AS,FAILED,None,ORD6,Invalid Quantity,

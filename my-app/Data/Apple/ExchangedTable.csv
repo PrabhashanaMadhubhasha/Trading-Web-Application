@@ -1,0 +1,3 @@
+tradeID,instrument,quantity,price,buyClOrdID,sellClOrdID,Status,buyOrdID,sellOrdID,Reason
+TRD0,Apple,122,22.0,None,hh,FAILED,None,ORD0,Invalid Quantity,
+TRD1,Apple,20,23.0,wde,rdg,MATCHED,ORD1,ORD2,None,

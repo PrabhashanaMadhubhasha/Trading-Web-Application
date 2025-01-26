@@ -1,0 +1,13 @@
+tradeID,instrument,quantity,price,buyClOrdID,sellClOrdID,Status,buyOrdID,sellOrdID,Reason
+TRD0,MSI,100,65.0,B,C,MATCHED,ORD1,ORD2,None,
+TRD1,MSI,100,55.0,A,C,MATCHED,ORD0,ORD2,None,
+TRD2,MSI,100,1.0,D,C,MATCHED,ORD3,ORD2,None,
+TRD3,MSI,12,12.0,a,None,FAILED,ORD4,None,Invalid Quantity,
+TRD4,MSI,12,12.0,a,None,FAILED,ORD5,None,Invalid Quantity,
+TRD5,MSI,12,12.0,a,None,FAILED,ORD6,None,Invalid Quantity,
+TRD6,MSI,12,12.0,a,None,FAILED,ORD7,None,Invalid Quantity,
+TRD7,MSI,12,12.0,a,None,FAILED,ORD8,None,Invalid Quantity,
+TRD8,MSI,12,12.0,a,None,FAILED,ORD9,None,Invalid Quantity,
+TRD9,MSI,12,12.0,ss,None,FAILED,ORD10,None,Invalid Quantity,
+TRD10,MSI,12,12.0,ss,None,FAILED,ORD11,None,Invalid Quantity,
+TRD11,MSI,12,2.0,q,None,FAILED,ORD13,None,Invalid Quantity,

@@ -1,0 +1,5 @@
+tradeID,instrument,quantity,price,buyClOrdID,sellClOrdID,Status,buyOrdID,sellOrdID,Reason
+TRD0,Asus,100,65.0,B,C,MATCHED,ORD1,ORD2,None,
+TRD1,Asus,100,55.0,A,C,MATCHED,ORD0,ORD2,None,
+TRD2,Asus,100,1.0,D,C,MATCHED,ORD3,ORD2,None,
+TRD3,Asus,12,22.0,None,sa,FAILED,None,ORD4,Invalid Quantity,

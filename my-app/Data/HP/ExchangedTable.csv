@@ -1,0 +1,3 @@
+tradeID,instrument,quantity,price,buyClOrdID,sellClOrdID,Status,buyOrdID,sellOrdID,Reason
+TRD0,HP,50,20.0,A,B,MATCHED,ORD0,ORD1,None,
+TRD1,HP,50,20.0,A,C,MATCHED,ORD0,ORD2,None,

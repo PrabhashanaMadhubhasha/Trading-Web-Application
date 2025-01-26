@@ -1,0 +1,27 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define the function
+def f(x1, x2, b):
+    return (1/4) * (x1**4 + b * x2**4)
+
+# Generate x1 and x2 values
+x1 = np.linspace(-5, 5, 100)
+x2 = np.linspace(-5, 5, 100)
+
+# Create meshgrid for x1 and x2
+X1, X2 = np.meshgrid(x1, x2)
+
+# Define values of b
+b_values = [1, 0.001]
+
+# Plot for each value of b
+for b in b_values:
+    Z = f(X1, X2, b)
+    plt.figure()
+    plt.contourf(X1, X2, Z, levels=20, cmap='viridis')
+    plt.colorbar()
+    plt.xlabel('x1')
+    plt.ylabel('x2')
+    plt.title(f'Contour plot of f(x) for b = {b}')
+    plt.show()
